@@ -1,0 +1,31 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Cowork session artifacts
+inbox/*.md
+inbox/archived/
+!inbox/archived/.gitkeep
+sessions/
+!sessions/.gitkeep
+!sessions/next-session-prompts/.gitkeep
+saddle/
+!saddle/.gitkeep
+work/
+!work/.gitkeep
+
+# Memory files (personal — not committed)
+memory/project-state.md
+memory/user-*.md
+memory/feedback-*.md
+memory/reference-*.md
+memory/anchor-audit-report.md
+
+# Ops runtime files (not committed)
+ops/event-log.md
+ops/board.md
+ops/assumptions.md
+ops/handoff/above/*.md
+ops/handoff/below/*.md
+ops/handoff/above/handled/*.md
+ops/handoff/below/handled/*.md
